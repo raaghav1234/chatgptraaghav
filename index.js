@@ -6,7 +6,7 @@ const app = express();
 const port = 3001;
 
 const openai = new OpenAI({
-  apiKey: "sk-proj-vEOm38X2Vm0AY1NWV7CeT3BlbkFJksbQxj65dK276JfR0Zax" // Replace with your actual OpenAI API key
+  apiKey: "Y0UR-API-KEY" // Replace with your actual OpenAI API key
 });
 
 app.use(bodyParser.json());
